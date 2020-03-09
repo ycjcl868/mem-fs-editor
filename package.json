@@ -1,13 +1,14 @@
 {
-  "name": "mem-fs-editor",
+  "name": "mem-fs-editor-async",
   "version": "6.0.0",
   "description": "File edition helpers working on top of mem-fs",
   "scripts": {
+    "prepublishOnly": "np --yolo --no-publish",
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "SBoudrias/mem-fs-editor",
-  "author": "Simon Boudrias",
+  "repository": "ycjcl868/mem-fs-editor",
+  "author": "ycjcl868",
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
@@ -33,6 +34,7 @@
     "eslint-config-xo-space": "^0.21.0",
     "jest": "^24.8.0",
     "mem-fs": "^1.0.0",
+    "np": "^6.2.0",
     "sinon": "^8.0.0"
   },
   "jest": {
